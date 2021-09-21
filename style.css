@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/img/netflix-vpn-1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+p, 
+h1, 
+a {
+    font-family: "Helvetica", sans-serif;
+}
+
+.logo {
+    width: 170px;
+    height: auto;
+    padding: 23px 24px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    background-color: #00000099;
+    padding: 165px 13px;
+    border-radius: 5px;
+    height: 191px;
+    width: 430px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 45px;
+    margin-top: -104px;
+    color: white;
+}
+
+input {
+    width: 62%;
+    padding: 14px 100px 14px 18px;
+    margin: 8px;
+    display: flex;
+    border: 0;
+    background-color: #343234;
+    outline: none;
+    font-size: 17px;
+    border-radius: 2px;
+}
+
+input p {
+    color: #545655;
+}
+
+button {
+    background-color: red;
+    font-size: 18px;
+    border: none;
+    padding: 13px 139px;
+    margin-top: 32px;
+    border-radius: 2px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+.login, 
+.enter {
+    display: grid;
+    justify-content: center;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.check p {
+    margin-left: -132px;
+    color: #8a908d;
+}
+
+.check a {
+    margin-left: 77px;
+    font-weight: 1;
+    color: #8a908d;
+}
+
+.input-check {
+    margin-left: -77px;
+    background-color:#545655;
+}
+
+p {
+    color:#545655;
+    font-size: 14px;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-one {
+    display: flex;
+    align-items: center;
+    margin-top: 75px;
+    margin-left: 45px;
+}
+
+.footer-one p {
+    font-size: 11px;
+}
+
+.footer-two {
+    display: flex;
+    margin-top: 2px;
+    margin-left: 51px;
+}
