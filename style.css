@@ -9,9 +9,15 @@ body {
     height: 100vh;
 }
 
-p, 
-h1, 
+p {
+    color:#545655;
+    font-size: 14px;
+    font-family: "Helvetica", sans-serif;
+}
+
 a {
+    color: #FFFFFF;
+    text-decoration: none;
     font-family: "Helvetica", sans-serif;
 }
 
@@ -40,13 +46,12 @@ h1 {
     margin-left: 45px;
     margin-top: -104px;
     color: white;
+    font-family: "Helvetica", sans-serif;
 }
 
 input {
-    width: 62%;
     padding: 14px 100px 14px 18px;
     margin: 8px;
-    display: flex;
     border: 0;
     background-color: #343234;
     outline: none;
@@ -81,32 +86,20 @@ button {
     display: flex;
     align-items: center;
     margin-top: 6px;
+    justify-content: center;
 }
 
 .check p {
-    margin-left: -132px;
     color: #8a908d;
 }
 
 .check a {
     margin-left: 77px;
-    font-weight: 1;
     color: #8a908d;
 }
 
 .input-check {
-    margin-left: -77px;
     background-color:#545655;
-}
-
-p {
-    color:#545655;
-    font-size: 14px;
-}
-
-a {
-    color: #FFFFFF;
-    text-decoration: none;
 }
 
 .footer-one {
@@ -124,4 +117,57 @@ a {
     display: flex;
     margin-top: 2px;
     margin-left: 51px;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        height: 115vh;
+    }
+
+    .card {
+        height: 182px;
+    }
+}
+
+@media (max-width: 350px) {
+    
+    body {
+        height: 115vh;
+    }
+
+    h1 {
+        margin-left: -3px;
+        margin-top: -125px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .card {
+        height: 182px;
+        width: 292px;
+    }
+
+    input {
+        padding: 14px 62px 14px 18px;
+    }
+
+    button {
+        padding: 13px 121px;
+    }
+
+    .check a {
+        margin-left: 48px;
+        font-size: 13px;
+    }
+
+    .footer-one {
+    margin-left: 0;
+    }
+
+    .footer-two {
+        margin-left: 5px;
+    }
 }
